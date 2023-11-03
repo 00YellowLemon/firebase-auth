@@ -15,7 +15,7 @@ export default function NavBas({setShow}) {
       
       {!open && (
         <div className="123" onClick={toggleNavbar} >
-           <AiOutlineMenu  />
+           <AiOutlineMenu className="cursor-pointer"  />
         </div>
       )}
       {open && <NavToggle setShow={setShow} setOpen={setOpen}/>}

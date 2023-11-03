@@ -26,7 +26,7 @@ export default function NavToggle({ setOpen, setShow }) {
           SignUp
         </li>
         <li className="cursor-pointer pb-4 text-lg" >
-          Cart
+          About Us
         </li>
         <li className="cursor-pointer pb-4 text-lg  ">
           Services

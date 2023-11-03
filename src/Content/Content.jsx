@@ -137,7 +137,7 @@ function SignIn({setOpen,app,auth,navigate}){
             <div className="mb-3 h-16 w-full">
                 <input className="w-full rounded-lg h-full outline-none px-4" type="password" name="" id="" value={pass} onChange={(e) => setPass(e.target.value)} />
             </div>
-            <input className="h-12 w-full rounded-lg bg-lime-300 my-8" type="submit" value="SignUp"onClick={handleForm} />
+            <input className="h-12 w-full rounded-lg bg-lime-300 my-8 cursor-pointer" type="submit" value="SignUp"onClick={handleForm} />
 
 
         </div>
